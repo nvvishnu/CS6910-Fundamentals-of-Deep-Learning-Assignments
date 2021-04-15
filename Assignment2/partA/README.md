@@ -1,3 +1,5 @@
+## PartA code
+
 There are multiple files in our notebook. “Assignement2_partA_final.ipynb” is the notebook which contains our final code. We have retained the other files so that it will be possible to keep track of the contributions of each team member.
 
 Our model can be run using the following line of code: “CNN(<filter>,<filter_organisation>,<drop_out>,<batch_normalisation>,<data_augmentation>,<kernel_size>,<batch_size>,<epochs>,<drop_batch_dense>,<last_2_avgpool>,<dense_sz>,<dp_aft_eachCNN>)”
