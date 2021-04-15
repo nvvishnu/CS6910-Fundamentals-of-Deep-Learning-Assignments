@@ -12,4 +12,4 @@
  
  
  In the notebook we have this line , to test the training one may run this with the best hyperparameters mentioned in the report.
- Initially I splitted the train data into train and validation using pypy splitfolders , and stored them on google drive,I made permissions such that anyone with the link can edit, so please add a shortcut of this folder into your drive and run the code. https://drive.google.com/drive/folders/1dx1bYBnnL9PO_y_xH4-5VOcRpmZyTqll?usp=sharing , I gave access to one of the TA Bethu Sai Sampath Sir.  
+ Initially we splitted the train data into train and validation using pypy splitfolders , and stored them on google drive,we made permissions such that anyone with the link can edit, so please add a shortcut of this folder into your drive and run the code. https://drive.google.com/drive/folders/1dx1bYBnnL9PO_y_xH4-5VOcRpmZyTqll?usp=sharing , I gave access to one of the TA Bethu Sai Sampath Sir.  
