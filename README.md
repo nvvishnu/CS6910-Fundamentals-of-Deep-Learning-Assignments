@@ -1,5 +1,9 @@
-# CS6910-Assignments
-This is the python code for Assignment 1 of CS6910(Deep Learning) course developed by V Vishnu Kiran(CS18B067) and Meesa Shivaram Prasad(CS18B056).
+## CS6910-Assignments
+This is the python code for Assignments of CS6910(Deep Learning) course developed by V Vishnu Kiran(CS18B067) and Meesa Shivaram Prasad(CS18B056).
+
+# Assignment 1: 
+
+Check the direcotry "Assignment 1"
 
 There are multiple files in our notebook. “Assignement1_Final_Sweep.ipynb” is the notebook which contains our final code. We have retained the other files so that it will be possible to keep track of the contributions of each team member. 
 
@@ -33,3 +37,7 @@ Here, <data_X> refers to X dataset and <data_y> refers to Y dataset.
 For example, using 
 <data_X> = trainX and <data_y> = trainy gives us training accuracy and cross entropy loss
 <data_X> = validateX and <data_y> = validatey gives us validation accuracy and cross entropy loss
+
+# Assignment 2 
+
+Check the directory "Assignment 2"
