@@ -4,7 +4,7 @@ There are multiple files in our notebook. “Assignement2_partA_final.ipynb” i
 
 Our model can be run using the following line of code: “CNN(<filter>,<filter_organisation>,<drop_out>,<batch_normalisation>,<data_augmentation>,<kernel_size>,<batch_size>,<epochs>,<drop_batch_dense>,<last_2_avgpool>,<dense_sz>,<dp_aft_eachCNN>)”
 
-<filter>: size of the first layer filter
+ <filter>: size of the first layer filter
 <filter_organisation>: if set double we just double the filters for the next layers , if same then same number of layers.
 <drop_out>:drop_out is the value of drop_out we will apply
 <batch_normalisation>: if set true we do batch normalisation after each layer,
