@@ -18,6 +18,6 @@ Our model can be run using the following line of code: “CNN(<num_filters>,<fil
   
 In the notebook we have this line , to test the training one may run this with the best hyperparameters mentioned in the report , else there is a cell to load the saved model so you may directly load the model from it and do the testing.
 
-Initially I splitted the train data into train and validation using pypy splitfolders , and stored them on google drive,I made permissions such that anyone with the link can edit, so please add a shortcut of this folder into your drive and run the code. https://drive.google.com/drive/folders/1dx1bYBnnL9PO_y_xH4-5VOcRpmZyTqll?usp=sharing , I gave access to one of the Bethu Sai Sampath Sir.
+Initially I splitted the train data into train and validation using pypy splitfolders , and stored them on google drive,I made permissions such that anyone with the link can edit, so please add a shortcut of this folder into your drive and run the code. https://drive.google.com/drive/folders/1dx1bYBnnL9PO_y_xH4-5VOcRpmZyTqll?usp=sharing , I gave access to one of the TA  Bethu Sai Sampath Sir.
  
  
