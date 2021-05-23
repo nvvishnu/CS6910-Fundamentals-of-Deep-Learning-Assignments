@@ -1,0 +1,75 @@
+Our code for the Assignment 3 of CS6910 is located in the file "Assignment_3.ipynb".
+
+Our Vanilla model,encoder_model,decoder_model can be obtained by running the following line of code:
+  
+Model,encoder_model,decoder_model = get_model(<num_encoder_tokens>,<num_decoder_tokens>,<embedding_size>,<num_encoder_layers>,<num_decoder_layers>,<hidden_layer_size>,<cell_type>,<drop_out>)
+
+- <num_encoder_tokens> : Number of encoder tokens
+- <num_decoder_tokens> : Number of decoder tokens
+- <embedding_size> : embedding size of embedding layer
+- <num_encoder_layers> : number of encoder layers
+- <num_decoder_layers> : number of decoder layers
+- <hidden_layer_size> : size of the hidden layer
+- <cell_type> : It’s RNN cell type , it can be ‘RNN’,’LSTM’,’GRU’
+- <drop_out> : The drop out
+
+
+To test the training of our model, you can run the above command with the best hyperparameters mentioned in the report.
+We have also included a cell named "training model with best found hyperparameters" which takes a few minutes to fit the model with our best hyperparameters
+and there are subsequent cells which calculates validation and test accuracy.
+
+The attention model can be obtained by running the following line of code:
+
+Model = model_with_attention(<num_encoder_tokens>,<num_decoder_tokens>,<embedding_size>,<hidden_layer_size>,<drop_out>)
+
+- <num_encoder_tokens> : Number of encoder tokens
+- <num_decoder_tokens> : Number of decoder tokens
+- <embedding_size> : embedding size of embedding layer
+- <hidden_layer_size> : size of the hidden layer
+- <cell_type> : It’s RNN cell type , it can be ‘RNN’,’LSTM’,’GRU’
+- <drop_out> : The drop out
+
+To test the training of our model, you can run the above command with the best hyperparameters mentioned in the report.
+We have also included a cell named "training model with best found hyperparameters" which takes a few minutes to fit the model with our best hyperparameters
+and there are subsequent cells which calculates validation and test accuracy.
+
+There is a cell named "Attention heatmap" for the genration of attention heatmap. One can run that cell and the following ones to generatee the grid on random 9 samples from the test data set.
+Important Note: 
+We are using the file "utf.zip" for displaying Hindi font(Devanagiri script) in seaborn heatmap label(for attention heatmap).
+The file has to be downloaded from our github repo and included in the Google Colab environment(or any other environment) while running the code.
+
+The function Visualize_attn is for visualiation.
+
+Visualization can be verified by running the following line of code:
+
+visualize_attn(<attention_weights>,<input_text>,<prediction_text>)
+
+- <attention_weights> : It's an attention weight matrix .
+- <input_text> : It is input text
+- <prediction_text> : It is predicted text
+
+In Notebook we are demonstrating the visualisation on 9 random samples of the data set using the visualize_attention function in the cell "Visualisation on 9 samples from test"
+There is also an interactive cell also at the end to visualise a random sample each time the cell is run.
+
+
+Regarding data path please provide datapath in 
+  "Train data preprocessing" cell with the path to hindi train data,
+  val_datapath in "val data preprocessing cell" and 
+  test_datapath in "test data preprocessing" cell.
+  
+As already mentioned above, "utf.zip" file available in repo has to be uploaded to the environment where the code is executed.
+
+Hope everything regarding usage of code is clear.
+If something related to usage of code is not clear, please drop us an email at nv.vishnukiran00@gmail.com or shivaramprasadmessa@gmail.com 
+
+
+
+
+
+
+
+
+ 
+ 
+
+
