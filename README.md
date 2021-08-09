@@ -38,6 +38,10 @@ For example, using
 <data_X> = trainX and <data_y> = trainy gives us training accuracy and cross entropy loss
 <data_X> = validateX and <data_y> = validatey gives us validation accuracy and cross entropy loss
 
-# Assignment 2 
+# Image Classification 
 
 Check the directory "Assignment 2"
+  
+# Transliteration
+
+Check the directory "Assignment 3"
